@@ -796,7 +796,7 @@ for i = 1:length(cast_num)
 end
 %% Figures showing calibrated DO casts with Winklers 
 
-% If want to look at Calibrated DO with Winklers by Cast  
+%% If want to look at Calibrated DO with Winklers by Cast  
 for i = 1:length(cast_num)
     plot_calibrated_DO(downcasts{cast_num(i)},upcasts{cast_num(i)},btlsum{cast_num(i)})
 end
