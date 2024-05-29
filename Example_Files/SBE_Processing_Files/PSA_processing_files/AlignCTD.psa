@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Align_CTD >
+  <Version value="7.26.7.129" />
+  <ServerName value="Align CTD" />
+  <InputDir value="C:\Users\fogaren\Documents\SBE\Year9" />
+  <InputFileArray size="18" GrowBy="-1" >
+    <ArrayItem index="0" value="ar69-01_006.cnv" />
+    <ArrayItem index="1" value="ar69-01_007.cnv" />
+    <ArrayItem index="2" value="ar69-01_008.cnv" />
+    <ArrayItem index="3" value="ar69-01_009.cnv" />
+    <ArrayItem index="4" value="ar69-01_010.cnv" />
+    <ArrayItem index="5" value="ar69-01_011.cnv" />
+    <ArrayItem index="6" value="ar69-01_012.cnv" />
+    <ArrayItem index="7" value="ar69-01_013.cnv" />
+    <ArrayItem index="8" value="ar69-01_014.cnv" />
+    <ArrayItem index="9" value="ar69-01_015.cnv" />
+    <ArrayItem index="10" value="ar69-01_016.cnv" />
+    <ArrayItem index="11" value="ar69-01_017.cnv" />
+    <ArrayItem index="12" value="ar69-01_018.cnv" />
+    <ArrayItem index="13" value="ar69-01_019.cnv" />
+    <ArrayItem index="14" value="ar69-01_020.cnv" />
+    <ArrayItem index="15" value="ar69-01_021.cnv" />
+    <ArrayItem index="16" value="ar69-01_022.cnv" />
+    <ArrayItem index="17" value="ar69-01_023.cnv" />
+  </InputFileArray>
+  <OutputDir value="C:\Users\fogaren\Documents\SBE\Year9" />
+  <NameAppend value="" />
+  <OutputFile value="" />
+  <LastProcessed value="0" />
+  <CalcArray Size="7" >
+    <CalcArrayItem index="0" CalcID="81" >
+      <Calc UnitID="6" Ordinal="0" >
+        <FullName value="Temperature [ITS-90, deg C]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="1" CalcID="81" >
+      <Calc UnitID="6" Ordinal="1" >
+        <FullName value="Temperature, 2 [ITS-90, deg C]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="2" CalcID="12" >
+      <Calc UnitID="41" Ordinal="0" >
+        <FullName value="Conductivity [mS/cm]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="3" CalcID="12" >
+      <Calc UnitID="41" Ordinal="1" >
+        <FullName value="Conductivity, 2 [mS/cm]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="4" CalcID="57" >
+      <Calc UnitID="63" Ordinal="0" >
+        <FullName value="Oxygen raw, SBE 43 [V]" />
+        <ApplyHysteresisCorrection value="1" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="5" CalcID="39" >
+      <Calc UnitID="4" Ordinal="0" >
+        <FullName value="Latitude [deg]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="6" CalcID="40" >
+      <Calc UnitID="4" Ordinal="0" >
+        <FullName value="Longitude [deg]" />
+      </Calc>
+    </CalcArrayItem>
+  </CalcArray>
+  <ValArray size="7" >
+    <ValArrayItem index="0" value="0.000000" variable_name="Temperature" />
+    <ValArrayItem index="1" value="0.000000" variable_name="Temperature" />
+    <ValArrayItem index="2" value="0.000000" variable_name="Conductivity" />
+    <ValArrayItem index="3" value="0.000000" variable_name="Conductivity" />
+    <ValArrayItem index="4" value="6.000000" variable_name="Oxygen raw, SBE 43" />
+    <ValArrayItem index="5" value="0.000000" variable_name="Latitude" />
+    <ValArrayItem index="6" value="0.000000" variable_name="Longitude" />
+  </ValArray>
+</Align_CTD>

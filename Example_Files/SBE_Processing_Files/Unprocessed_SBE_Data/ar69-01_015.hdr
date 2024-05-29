@@ -1,0 +1,20 @@
+* Sea-Bird SBE 9 Data File:
+* FileName = D:\data\ar69-01_015.hdr
+* Software Version Seasave V 7.26.7.107
+* Temperature SN = 4491
+* Conductivity SN = 3009
+* Number of Bytes Per Scan = 44
+* Number of Voltage Words = 5
+* Number of Scans Averaged by the Deck Unit = 1
+* System UpLoad Time = Jul 02 2022 17:28:16
+* NMEA Latitude = 59 43.02 N
+* NMEA Longitude = 039 20.16 W
+* NMEA UTC (Time) = Jul 02 2022  17:28:01
+* Store Lat/Lon Data = Append to Every Scan
+** Cruise ID: AR69-01
+** Chief Sci: 
+** Station #: 015
+** Site ID: Irminger FLMB (OSNAP acoustic release test)
+** retesting acoustic releases
+* System UTC = Jul 02 2022 17:28:16
+*END*

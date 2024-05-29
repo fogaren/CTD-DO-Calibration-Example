@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Loop_Edit >
+  <Version value="7.26.7.129" />
+  <ServerName value="Loop Edit" />
+  <InputDir value="C:\Users\fogaren\Documents\SBE\Year9" />
+  <InputFileArray size="1" GrowBy="-1" >
+    <ArrayItem index="0" value="ar69-01_006.cnv" />
+  </InputFileArray>
+  <OutputDir value="C:\Users\fogaren\Documents\SBE\Year9" />
+  <NameAppend value="" />
+  <OutputFile value="ar69-01_006" />
+  <LastProcessed value="0" />
+  <MinVelocityType value="0" high="1" low="0" initialValue="0" />
+  <MinCTD_Velocity value="0.250000" />
+  <TimeWindowSize value="120.000000" />
+  <PercentMeanSpeed value="25.000000" />
+  <ExcludeMarkedBad value="1" />
+  <RemoveSurfaceSoak value="1" />
+  <UseDeckPressure value="0" />
+  <SurfaceSoakDepth value="10.000000" />
+  <SurfaceSoakDepthMin value="5.000000" />
+  <SurfaceSoakDepthMax value="20.000000" />
+</Loop_Edit>

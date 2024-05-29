@@ -1,0 +1,9 @@
+@ Enter the following command into the run or sea bird data processing command line options:
+@ sbebatch C:\Users\fogaren\Documents\SBE\Year9\Year9_Batch_cnv_btl.txt C:\Users\fogaren\Documents\SBE\Year9 
+@ InstrumentData folder contains hex files and all relevant PSA files
+@ %1 represendata data path C:\Users\fogaren\Documents\SBE\Year9
+@ use %1\*.HEX as a wildcard to find all .HEX files
+
+datcnv /i%1\*.HEX	/p%1\datcnv.psa		/o%1\	 /c%1\ar69-01_006.XMLCON
+bottlesum /i%1\*.ros	/p%1\BottleSum.psa	/o%1\	 /c%1\ar69-01_006.XMLCON
+

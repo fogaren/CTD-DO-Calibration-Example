@@ -1,0 +1,16 @@
+@ Enter the following command into the run or sea bird data processing command line options:
+@ sbebatch C:\Users\fogaren\Documents\SBE\Year9\Batch.txt C:\Users\fogaren\Documents\SBE\Year9
+@ InstrumentData folder contains hex files and all relevant PSA files
+@ %1 represendata data path G:\Shared drives\NSF_Irminger\OOI Cruises CTD Casts\CTD_Data\Alfresco\Year1
+@ use %1\*.HEX as a wildcard to find all .HEX files
+
+datcnv /i%1\*.HEX	/p%1\datcnv.psa		/o%1\ /c%1\ar69-01_006.XMLCON
+Alignctd /i%1\*.cnv	/p%1\AlignCTD.psa	/o%1\
+bottlesum /i%1\*.ros	/p%1\BottleSum.psa	/o%1\ /c%1\ar69-01_006.XMLCON	
+Wildedit /i%1\*.cnv	/p%1\WildEdit.psa	/o%1\
+Celltm /i%1\*.cnv	/p%1\CellTM.psa		/o%1\
+Filter /i%1\*.cnv	/p%1\Filter.psa		/o%1\
+Loopedit /i%1\*.cnv	/p%1\LoopEdit.psa	/o%1\
+@ Derive /i%1\*.cnv	/p%1\Derive.psa		/o%1\ /c%1\ar69-01_006.XMLCON
+Binavg /i%1\*.cnv	/p%1\Binavg.psa		/o%1\ 
+Split /i%1\*.cnv	/p%1\Split.psa		/o%1\

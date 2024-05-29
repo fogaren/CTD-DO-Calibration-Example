@@ -1,0 +1,19 @@
+* Sea-Bird SBE 9 Data File:
+* FileName = D:\data\ar69-01_011.hdr
+* Software Version Seasave V 7.26.7.107
+* Temperature SN = 4491
+* Conductivity SN = 3009
+* Number of Bytes Per Scan = 44
+* Number of Voltage Words = 5
+* Number of Scans Averaged by the Deck Unit = 1
+* System UpLoad Time = Jun 29 2022 18:39:34
+* NMEA Latitude = 59 50.97 N
+* NMEA Longitude = 040 41.43 W
+* NMEA UTC (Time) = Jun 29 2022  18:39:20
+* Store Lat/Lon Data = Append to Every Scan
+** Cruise ID: AR69-01
+** Chief Sci: 
+** Station #: 011
+** Site ID: M2
+* System UTC = Jun 29 2022 18:39:34
+*END*
